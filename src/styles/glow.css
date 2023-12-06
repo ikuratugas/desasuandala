@@ -1,0 +1,62 @@
+
+@media (max-width: 639px) {
+  /* CSS styles for small screens and below */
+  .bgimage {
+    background-image: url("../assets/woke.jpg");
+    width: 100hv;
+    height: 100hv;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.61));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border:1px solid rgba(219, 219, 219, 0.151);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.911);
+  }
+}
+
+
+.glowing-border {
+  animation: glowing-border 2s infinite;
+}
+
+@keyframes glowing-border {
+  0% {
+    border: 2px solid rgba(102, 185, 94, 1);
+    box-shadow: 0 0 10px rgba(95, 202, 62, 0.5);
+  }
+
+  25% {
+    border: 2px solid rgba(62, 223, 47, 0.959);
+    box-shadow: 0 0 11px rgb(0, 167, 117);
+  }
+
+  50% {
+    border: 2px solid rgba(102, 185, 94, 1);
+    box-shadow: 0 0 10px rgb(164, 255, 228);
+  }
+
+  75% {
+    border: 2px solid rgba(62, 223, 47, 0.959);
+    box-shadow: 0 0 11px rgb(44, 136, 108);
+  }
+
+  100% {
+    border: 2px solid rgba(102, 185, 94, 1);
+    box-shadow: 0 0 10px rgba(95, 202, 62, 0.5);
+  }
+}
+
+
+.glasshover{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.61));
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border:1px solid rgba(219, 219, 219, 0.151);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.911);
+}
